@@ -25,3 +25,10 @@ img {
     font-size: 18px;align-items: center;
     /*margin-top: -15px;*/
 }
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+.welcome-container {
+    display: flex;
+}
