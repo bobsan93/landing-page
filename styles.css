@@ -5,4 +5,18 @@ body {
 }
 img {
     width: 200px;
+    height: 150px;
+}
+.top-bar {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    color: #F9FAF9;
+}
+.top-left {
+    display: flex;
+}
+.top-right {
+    display: flex;
+    gap: 20px;
 }
