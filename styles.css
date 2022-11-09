@@ -4,8 +4,7 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 img {
-    width: 200px;
-    height: 150px;
+  
 }
 .top-bar {
     background-color: #1F2937;
@@ -22,7 +21,8 @@ img {
 .top-right {
     display: flex;
     gap: 20px;
-    font-size: 18px;align-items: center;
+    font-size: 18px;
+    align-items: center;
     /*margin-top: -15px;*/
 }
 .main-container {
@@ -31,4 +31,42 @@ img {
 }
 .welcome-container {
     display: flex;
+    background-color: #1F2937;
+    padding: 100px;
+}
+.welcome-left {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    flex: 1;
+
+}
+.welcome-right {
+    display: flex;
+    justify-content: flex-start;
+    flex: 1;
+    
+}
+.welcome-left h1 {
+    font-size: 48px;
+    color: #F9FAF9;
+}
+.sub-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: -30px;
+}
+.welcome-left button {
+    background-color: #3882F6;
+    width: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #E5E7EB;
+    font-weight: bold;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+.welcome-right img {
+    width:500px;
+    height: 300px;
 }
