@@ -32,7 +32,8 @@ img {
 .welcome-container {
     display: flex;
     background-color: #1F2937;
-    padding: 100px;
+    padding: 80px;
+    gap: 20px;
 }
 .welcome-left {
     display: flex;
@@ -45,7 +46,7 @@ img {
     display: flex;
     justify-content: flex-start;
     flex: 1;
-    
+    align-items: center;
 }
 .welcome-left h1 {
     font-size: 48px;
@@ -67,6 +68,13 @@ img {
     border-radius: 10px;
 }
 .welcome-right img {
-    width:500px;
+    width: 600px;
     height: 300px;
+    border-radius: 5px;
+}
+#info {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    
 }
