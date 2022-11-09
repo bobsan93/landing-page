@@ -75,6 +75,25 @@ img {
 #info {
     text-align: center;
     font-size: 36px;
+    color: #1F2937; 
+}
+.cat-container {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    padding-bottom: 60px;
+    margin-top: 10px;
+}
+.cat-info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 150px;
+    text-align: center;
     color: #1F2937;
-    
+}
+.cat-info img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
 }
